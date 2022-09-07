@@ -16,6 +16,11 @@ export default {
 <style lang="scss">
 $primaryColor: rgba(56, 56, 56, 0.5);
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .link-container {
   display: flex;
   justify-content: center;
