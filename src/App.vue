@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" class="logo" src="./assets/logo.png" />
   <HelloWorld msg="Kindred" />
 
   <iframe
