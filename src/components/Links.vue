@@ -22,7 +22,7 @@ $primaryColor: rgba(56, 56, 56, 0.5);
   align-items: center;
 
   .link {
-    font-weight: 900;
+    font-weight: 700;
     background-color: $primaryColor;
     border-radius: 10px;
     display: flex;
