@@ -20,8 +20,10 @@ $primaryColor: rgba(56, 56, 56, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 
   .link {
+    text-decoration: none;
     font-weight: 700;
     background-color: $primaryColor;
     border-radius: 10px;
