@@ -1,0 +1,45 @@
+<template>
+  <div class="link-container">
+    <h2 class="link">{{ msg }}</h2>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Links",
+  props: {
+    msg: String,
+  },
+};
+</script>
+
+<style lang="scss">
+$primaryColor: rgba(56, 56, 56, 0.5);
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .link {
+    font-weight: 900;
+    background-color: $primaryColor;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 40rem;
+    height: 4rem;
+    color: white;
+    transition: ease 0.2s;
+
+    &:hover {
+      background-color: rgb(55, 55, 55);
+      transition: ease 0.2s;
+      transform: scale(1.02);
+      cursor: pointer;
+    }
+  }
+}
+</style>
