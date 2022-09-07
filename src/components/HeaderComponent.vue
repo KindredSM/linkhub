@@ -7,7 +7,7 @@
 <style lang="scss">
 .hello {
   font-size: 1rem;
-  color: white;
+  color: rgb(241, 241, 241);
 }
 </style>
 <script>

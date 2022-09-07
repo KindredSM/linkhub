@@ -28,10 +28,10 @@ $primaryColor: rgba(56, 56, 56, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     width: 40rem;
     height: 4rem;
-    color: white;
+    color: rgb(242, 240, 240);
     transition: ease 0.2s;
 
     &:hover {

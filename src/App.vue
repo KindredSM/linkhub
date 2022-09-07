@@ -1,4 +1,5 @@
 <template>
+  <img alt="Kindred logo" class="logo" src="./assets/logo.png" />
   <HelloWorld msg="Kindred" />
 
   <iframe
@@ -43,6 +44,7 @@ export default {
 <style lang="scss">
 body {
   background: rgb(10, 10, 10);
+  padding: 24px 12px;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -59,6 +61,7 @@ body {
 }
 
 .spotify-dropdown {
+  padding-top: 20px;
   width: 45%;
 }
 
