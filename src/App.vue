@@ -43,7 +43,11 @@ export default {
 
 <style lang="scss">
 body {
-  background: rgb(10, 10, 10);
+  background: url("./assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(10, 10, 10);
   padding: 24px 12px;
 }
 #app {
@@ -59,6 +63,7 @@ body {
 .logo {
   border-radius: 50%;
   width: 6rem;
+  box-shadow: 0 0 3px 5px rgb(0, 0, 0);
 }
 
 .spotify-dropdown {
