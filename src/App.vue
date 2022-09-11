@@ -11,12 +11,13 @@
     allowfullscreen=""
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   ></iframe>
-  <a
+  <a href="https://kindredsm.github.io/kindred-music/#/" target="_blank"
+    ><Links msg="Website"></Links></a
+  ><a
     href="https://open.spotify.com/artist/79ateW5WAiWAdVbVOWybc0?si=22D2BmyuSKmDsPy6qxesmg"
     target="_blank"
     ><Links msg="Spotify"></Links
   ></a>
-
   <a href="https://soundcloud.com/kindredwav" target="_blank"
     ><Links msg="Soundcloud"></Links
   ></a>
@@ -24,7 +25,7 @@
     ><Links msg="Github"></Links
   ></a>
   <a href="https://kindredsalway.com/" target="_blank"
-    ><Links msg="Website"></Links
+    ><Links msg="Developer Portfolio"></Links
   ></a>
 </template>
 
